@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 
 @Entity
 public class Curso {
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     private long id;
     @ColumnInfo(name = "nome")
     private String nome;

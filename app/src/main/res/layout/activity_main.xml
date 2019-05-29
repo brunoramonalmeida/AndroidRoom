@@ -6,7 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar" />
+
+    <Button
+        android:layout_below="@+id/limpar"
+        android:id="@+id/adicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar" />
+
     <ListView
+        android:layout_below="@+id/adicionar"
         android:id="@+id/lista"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
